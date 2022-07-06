@@ -40,6 +40,7 @@ fun DefaultPreview() {
             composable("continue") { ContinuePage(navController) }
             composable("report") { ReportPage(navController) }
             composable("setup") { SetupPage(navController) }
+            composable("game") {GamePage(navController)}
         }
     }
 }
